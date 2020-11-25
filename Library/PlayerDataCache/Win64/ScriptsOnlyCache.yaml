@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -50,6 +51,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9328}
     - Class: 114
       Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9342}
     - Class: 114
       Script: {instanceID: 9378}
     - Class: 114
@@ -545,7 +548,7 @@ ScriptsOnlyBuild:
     className: AnalyticsTracker
   - hash:
       serializedVersion: 2
-      Hash: 9059a9bde00fdd35659d96a3d5b2f26a
+      Hash: 5f97bf6230000ff55f37d9de86bf3b35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Controller
